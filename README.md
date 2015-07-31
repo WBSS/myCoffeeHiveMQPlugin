@@ -12,10 +12,10 @@ The other components of the myCoffee IoT Framework are:
 
 ## Installation
 
-### HiveMQ
+#### HiveMQ
 * [Unpack and install](http://www.hivemq.com/documentations/getting-started/)
 
-### Plugin Jar file
+#### Plugin Jar file
 * Adjust MySQL-DB settings in `dbconfig.properties` and copy the file to `C:\opt\hivemq\plugins\`
 * Build jar file: `mvn package`
 * Copy `myCoffeeDBPlugin-0.0.1.jar` to `[HiveMQ installation directory]\plugin\`
@@ -54,7 +54,7 @@ The other components of the myCoffee IoT Framework are:
 2015-07-31 10:58:03,901 INFO  - Activating $SYS topics with an interval of 60 seconds
 2015-07-31 10:58:04,045 INFO  - Starting on all interfaces and port 1883
 2015-07-31 10:58:04,059 INFO  - Starting with Websockets support on all interfaces and port 8000
-**2015-07-31 10:58:04,072 INFO  - Loaded Plugin myCoffee HiveMQ Plugin - v0.0.1**
+<strong>2015-07-31 10:58:04,072 INFO  - Loaded Plugin myCoffee HiveMQ Plugin - v0.0.1</strong>
 2015-07-31 10:58:04,073 INFO  - Started HiveMQ 2.1.0 in 1800ms
 2015-07-31 10:58:04,267 INFO  - A new HiveMQ Version (2.3.1) is available. Visit http://www.hivemq.com/ for more details.
 ```
